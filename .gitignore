@@ -4,4 +4,13 @@ lecture_04.md
 data/
 demo*
 refs/
+# Ignore results directory in general
 results/
+
+# But include specific metrics files needed for tests
+!results/part_1/
+!results/part_2/
+!results/part_3/
+!results/part_1/emnist_classifier_metrics.txt
+!results/part_2/cnn_keras_metrics.txt
+!results/part_3/ecg_classifier_v1_metrics.txt
