@@ -34,7 +34,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         # Install required packages for tests
-        pip install pytest numpy pandas matplotlib scikit-learn tensorflow
+        pip install pytest numpy pandas matplotlib scikit-learn tensorflow ipykernel
 
     - name: Setup Jupyter Kernel
       run: |
